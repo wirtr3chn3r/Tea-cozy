@@ -3,22 +3,23 @@ body {
   font-family: helvetica, sans-serif;
   font-size: 22px;
   color: seashell;
-  opacity: 0.9;
+
 }
 
 #header {
   display: flex;
   border-bottom: 1px solid seashell;
-  height: 49px;
-  padding: 10px;
-  justify-content: center;
+  height: 69px;
+  padding-left: 10px;
+  padding-right: 10px;
   align-items: center;
-  border: 1px solid red;
+  background-color: black;
   position: fixed;
-  flex: 1;
+  top: 0px;
   margin-right: 10px;
   border-right: 10px;
   width: 100%;
+  z-index: 1;
 
 }
 
@@ -27,6 +28,8 @@ display: flex;
 justify-content: space-between;
 flex: 1;
 border-right: 10px;
+height: 100%;
+
 }
 
 .logo img{
@@ -58,6 +61,8 @@ border-right: 10px;
   margin: auto;
   flex: wrap;
   padding-top: 70px;
+  opacity: 0.9;
+
 }
 
 .statement {
@@ -73,6 +78,8 @@ border-right: 10px;
   padding-top: 50px;
   text-align: center;
   padding-bottom: 50px;
+  opacity: 0.9;
+
 }
 
 .container {
@@ -89,7 +96,7 @@ border-right: 10px;
 .item img {
   height: 200px;
   width: 300px;
-  flex: 1;
+
 }
 
 
@@ -102,6 +109,7 @@ border-right: 10px;
   width: 1100px;
   text-align: center;
   margin: auto;
+  opacity: 1.0;
 }
 
 .container2 {
@@ -110,7 +118,6 @@ border-right: 10px;
   align-content: center;
   justify-content: space-around;
   margin: auto;
-  border: 1px solid white;
   flex: 1;
 }
 
@@ -122,7 +129,6 @@ border-right: 10px;
   align-self: center;
   flex-direction: column;
 
-  border: 1px solid red;
 }
 
 .location h3 p {
@@ -132,9 +138,9 @@ border-right: 10px;
 #contact {
   text-align: center;
   height: 200px;
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
+
 }
 
 #contact p {
@@ -143,4 +149,5 @@ border-right: 10px;
 }
 footer {
   padding-left: 20px;
+
 }
